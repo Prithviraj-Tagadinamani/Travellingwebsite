@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\DELL\Desktop\travelling website\bootstrap.css">
+    <link rel="stylesheet" href="C:\Users\DELL\Desktop\travelling website\project.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Home Page</title>
+</head>
+
+<body>
+    <div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"> <b> Scroll Top </b></button>
+    </div>
+    <div class="background">
+        <div id="header">
+            <div class="container-fluid ">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h1 id="logo" data-aos="fade-right">Travel squad</h1>
+                    </div>
+                    <div class="col-sm-7">
+                        <ul id="menu" class="float-sm-right" data-aos="fade-right">
+                            <li><a href="C:\Users\DELL\Desktop\travelling website\project.html">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                    Categories
+                                </a>
+                                <div class="dropdown-menu" data-aos="fade">
+                                    <a class="dropdown-item" href="#">Spiritual</a>
+                                    <a class="dropdown-item" href="#">Sight Seeing</a>
+                                    <a class="dropdown-item" href="#">Parks and gardens</a>
+                                    <a class="dropdown-item" href="#">Entertainment</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="heading">
+            <h1 data-aos="fade-right">Travel With Us</h1>
+            <h3 data-aos="fade-right">Feel the vibes of Hubballi Dharwad.</h3>
+        </div>
+    </div>
+
+    <div class="py-3 text-center">
+        <div id="images" class="row py-3">
+            <div class="col">
+                <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="#"><img data-aos="fade-right" src="C:\Users\DELL\Desktop\travelling website\unnamed.jpg"
+                                    class="d-inline-block w-100" alt=""></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 data-aos="fade-right"> Spiritual </h5>
+                                <p data-aos="fade-right">Visit the temples of Hubli Dharwad</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img data-aos="fade-right" src="C:\Users\DELL\Desktop\travelling website\MbkKlLj.jpg"
+                                    class="d-inline-block w-100" alt=""></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 data-aos="fade-right"> Sight seeing</h5>
+                                <p data-aos="fade-right">Visit the Sight seeing places of Hubli Dharwad</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img data-aos="fade-right" src="C:\Users\DELL\Desktop\travelling website\project.css"
+                                    class="d-inline-block w-100" alt=""></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 data-aos="fade-right"> Rocks and Gardens</h5>
+                                <p data-aos="fade-right">Visit the Rocks and gardens of Hubli Dharwad</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#"><img data-aos="fade-right" src="C:\Users\DELL\Desktop\travelling website\entertainment.jpg"
+                                    class="d-inline-block w-100" alt=""></a>
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 data-aos="fade-right">Entertainment</h5>
+                                <p data-aos="fade-right">Visit the Entertainment places of Hubli Dharwad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="scrolbutton">
+                        <a href="#myCarousel" class="carousel-control-prev" id="scrol" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a href="#myCarousel" class="carousel-control-next" id=scrol data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row" id="content">
+            <h1 id="place" data-aos="fade-right">
+                Places you would love to visit
+            </h1>
+        </div>
+        <!-- <div class="row justify-content-center" id="landing">
+            <a href="#">
+                <div class="row">
+                    <h3 data-aos="fade-right">Spiritual</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 " id="slider"><img data-aos="fade-right"
+                            src="D:\AICTE\Web Interface\image\spiritual.jpg" alt=""></div>
+                    <div class="col-lg-8 ">
+                        <p data-aos="fade-left">Spirituality is a broad concept with room for many perspectives. In general, it
+                            includes a sense of
+                            connection to something bigger than ourselves, and it typically involves a search for meaning in
+                            life. As such, it is a universal human experience—something that touches us all. People may describe
+                            a spiritual experience as sacred or transcendent or simply a deep sense of aliveness and
+                            interconnectedness.
+                            Some may find that their spiritual life is intricately linked to their association with a church,
+                            temple, mosque, or synagogue. Others may pray or find comfort in a personal relationship with God or
+                            a higher power. Still others seek meaning through their connections to nature or art. Like your
+                            sense of purpose, your personal definition of spirituality may change throughout your life, adapting
+                            to your own experiences and relationships..... <a href="#">Know more</a> </p>
+                    </div>
+                </div>
+            </a>
+        </div> -->
+        <!-- <div class="row justify-content-center" id="landing">
+            <a href="#">
+                <h3 data-aos="fade-right">Spiritual</h3>
+            </a>
+        </div>
+        <div class="row">
+            <a href="#">
+                <div class="col-lg-4 " id="slider"><img data-aos="fade-right"
+                    src="D:\AICTE\Web Interface\image\spiritual.jpg" alt=""></div>
+            <div class="col-lg-8 ">
+                <p data-aos="fade-left">Spirituality is a broad concept with room for many perspectives. In general, it
+                    includes a sense of
+                    connection to something bigger than ourselves, and it typically involves a search for meaning in
+                    life. As such, it is a universal human experience—something that touches us all. People may describe
+                    a spiritual experience as sacred or transcendent or simply a deep sense of aliveness and
+                    interconnectedness.
+                    Some may find that their spiritual life is intricately linked to their association with a church,
+                    temple, mosque, or synagogue. Others may pray or find comfort in a personal relationship with God or
+                    a higher power. Still others seek meaning through their connections to nature or art. Like your
+                    sense of purpose, your personal definition of spirituality may change throughout your life, adapting
+                    to your own experiences and relationships..... <a href="#">Know more</a> </p>
+            </div>
+            </a>
+        </div> -->
+        <div class="container" id="animate">
+            <div class="row" id="content">
+                <h3 data-aos="fade-right">Spiritual</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 " id="slider"><img data-aos="fade-right"
+                        src="C:\Users\DELL\Desktop\travelling website\spiritual.jpg" alt=""></div>
+                <div class="col-lg-8 ">
+                    <p data-aos="fade-left">Spirituality is a broad concept with room for many perspectives. In general,
+                        it
+                        includes a sense of
+                        connection to something bigger than ourselves, and it typically involves a search for meaning in
+                        life. As such, it is a universal human experience—something that touches us all. People may
+                        describe
+                        a spiritual experience as sacred or transcendent or simply a deep sense of aliveness and
+                        interconnectedness.
+                        Some may find that their spiritual life is intricately linked to their association with a
+                        church,
+                        temple, mosque, or synagogue. Others may pray or find comfort in a personal relationship with
+                        God or
+                        a higher power. Still others seek meaning through their connections to nature or art. Like your
+                        sense of purpose, your personal definition of spirituality may change throughout your life,
+                        adapting
+                        to your own experiences and relationships..... <a href="#">Know more</a> </p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="container" id="animate">
+            <div class="row" id="content">
+                <h3 data-aos="fade-right">Sight seeing</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 order-lg-1" id="slider"><img data-aos="fade-left"
+                        src="C:\Users\DELL\Desktop\travelling website\sight seeing.jpg" alt="">
+                </div>
+                <div class="col-lg-8 order-lg-0">
+                    <p data-aos="fade-right">Places of natural beauty such as beaches, tropical island resorts, national
+                        parks, mountains, deserts
+                        and forests, are examples of traditional tourist attractions which people may visit. Cultural
+                        tourist attractions can include historical places, monuments, ancient temples, zoos, aquaria,
+                        museums and art galleries, botanical gardens, buildings and structures (such as forts, castles,
+                        libraries, former prisons, skyscrapers, bridges), theme parks and carnivals, living history
+                        museums,
+                        public art (sculptures, statues, murals), ethnic enclave communities, historic trains and
+                        cultural
+                        events. Factory tours, industrial heritage, creative art and crafts workshops are the object of
+                        cultural niches like industrial tourism and creative tourism.....<a href="#">Know more</a> </p>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <div class="container" id="animate">
+            <div class="row" id="content">
+                <h3 data-aos="fade-right">Rocks and garden</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" id="slider"><img data-aos="fade-right"
+                        src="C:\Users\DELL\Desktop\travelling website\entertainmentreal.jpg" alt=""></div>
+                <div class="col-lg-8">
+                    <p data-aos="fade-left">Gardens often have design features including statuary, follies, pergolas,
+                        trellises, stumperies, dry
+                        creek beds and water features such as fountains, ponds (with or without fish), waterfalls or
+                        creeks.
+                        Some gardens are for ornamental purposes only, while others also produce food crops, sometimes
+                        in
+                        separate areas, or sometimes intermixed with the ornamental plants. Food-producing gardens are
+                        distinguished from farms by their smaller scale, more labor-intensive methods, and their purpose
+                        (enjoyment of a hobby or self-sustenance rather than producing for sale, as in a market garden).
+                        Flower gardens combine plants of different heights, colors, textures, and fragrances to create
+                        interest and delight the senses.....<a href="#">Know more</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="container" id="animate">
+            
+            <div class="row" id="content">
+                <h3 data-aos="fade-right">Entertainment</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 order-lg-1" id="slider"><img data-aos="fade-left"
+                        src="C:\Users\DELL\Desktop\travelling website\entertainment.jpg" alt="">
+                </div>
+                <div class="col-lg-8 order-lg-0">
+                    <p data-aos="fade-right">
+                        Although people's attention is held by different things because individuals have different
+                        preferences, most forms of entertainment are recognisable and familiar. Storytelling, music,
+                        drama,
+                        dance, and different kinds of performance exist in all cultures, were supported in royal courts,
+                        developed into sophisticated forms and over time became available to all citizens. The process
+                        has
+                        been accelerated in modern times by an entertainment industry that records and sells
+                        entertainment
+                        products. Entertainment evolves and can be adapted to suit any scale, ranging from an individual
+                        who
+                        chooses a private entertainment from a now enormous array of pre-recorded products; to a banquet
+                        adapted for two; to any size or type of party, with appropriate music and dance; to performances
+                        intended for thousands; and even for a global audience.....<a
+                            href="https://web.whatsapp.com/">Know
+                            more</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js">
+    </script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 800,
+        });
+    </script>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
