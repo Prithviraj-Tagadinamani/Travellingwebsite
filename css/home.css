@@ -1,0 +1,101 @@
+html{
+    scroll-behavior: smooth;
+}
+#slider, #images{
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+}
+#heading{
+    padding:2rem 0;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+h5{
+    padding: 0 0 2rem 1rem;
+    font-size: x-large;
+    font-weight: 700;
+    margin: 0 auto;
+}
+.background{
+    width: 100%;
+    background-image: url("D:\ZenTechify\Images\Lsptop buying guide\bestgraphic.jpg");
+}
+/* #slider1{
+    opacity: 0.7;
+}
+#slider2{
+    opacity: 0.7;
+}
+#slider3{
+    opacity: 0.7;
+} */
+.carousel-caption{
+    background-color: black;
+    opacity: 0.5;
+    margin: 0 auto;
+    /* margin-bottom: 50%; */
+    border-radius: 20%;
+}
+.carousel-caption h5, .carousel-caption p{
+color:white;
+font-weight: 500;
+}
+
+@media (max-width:800px) {
+    .image{
+        display: block;
+    }
+}
+.carousel-inner h5, .carousel-inner p{
+    text-shadow: 4px 4px 4px black;
+}
+
+nav ul li a:hover{
+background-color: rgb(0, 225, 255);
+border-radius: 10%;
+}
+.dropdown-menu{
+    background-color: rgb(48, 44, 44);
+}
+.dropdown-menu a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 49, 56);
+}
+.dropdown-menu a:hover{
+    color: white;
+    background-color: rgb(79, 169, 175);
+    border-radius: 10%;
+}
+.container-fluid{
+    padding: 0;
+}
+.navbar{
+    padding: 0;
+}
+
+.carousel-inner>.item>img,
+        .carousel-inner>.item>a>img {
+            width: 70%;
+            margin: auto;
+        }
+        
+        @media screen and (max-width: 989px) {
+            .container{
+                width: 100vw;
+            }
+            p{
+                text-align: center;
+            }
+
+        @media screen and(max-width: 765px) {
+            img{
+            }
+        }
+            #slider3,#slider2,#slider4,#slider1{
+                display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  /* width: 50%; */
+  padding-left: 1rem;
+                        }
+          }
